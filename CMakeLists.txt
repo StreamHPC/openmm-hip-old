@@ -21,6 +21,7 @@ SET(OPENMM_SOURCE_DIR "${CMAKE_SOURCE_DIR}/../openmm" CACHE PATH "Where OpenMM s
 
 INCLUDE_DIRECTORIES(${OPENMM_DIR}/include)
 INCLUDE_DIRECTORIES(${OPENMM_DIR}/include/openmm/reference)
+INCLUDE_DIRECTORIES(${OPENMM_SOURCE_DIR}/libraries/pocketfft/include/)
 LINK_DIRECTORIES("${OPENMM_DIR}/lib" "${OPENMM_DIR}/lib/plugins")
 
 # Specify the C++ version we are building for.
